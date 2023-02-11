@@ -1,0 +1,1 @@
+c++ -o sampsu -pthread -lm -O3 -march=native -fPIC -g -fno-stack-protector -fno-var-tracking-assignments -w -DLINUX -fpermissive -Wall -Wextra -Wno-unknown-pragmas -m64 sampsu.c
